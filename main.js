@@ -1,0 +1,2 @@
+let cardDeckNumbers = [];
+let cardDeckSuites = [];
