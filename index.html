@@ -8,9 +8,25 @@
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <header>
-            <h1>BlackJack</h1>
-        </header>
+        
+    <div class="game">
+        <h1>Blackjack</h1>
+        <input type="button" class="btn" value="start" onclick="start()" />
+        <input type="button" class="btn" value="hit me" onclick="hitMe()" />
+        <input type="button" class="btn" value="stay" onclick="stay()" />
+        
+
+        <div id="players" class="players">
+        </div>
+
+        <div id="deck" class="deck">
+            <div class="card" id="deckCount">52</div>
+            <div class="status" id="status"></div>
+        </div>
+
+        <div class="clear"></div>
+        
+    </div>
         
         
         <script src="main.js"></script>
