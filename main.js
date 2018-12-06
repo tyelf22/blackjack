@@ -40,11 +40,23 @@ let shuffle = () => {
     }
 }
 
+// Create the players
 let players = new Array();
 let createPlayer = (num) => {
     players = new Array();
     for (let i = 1; i <= num; i++){
         let hand = new Array();
         let player = {Name: "Player" + i}
+        players.push(player);
     }
 }
+
+//Create the interface
+let createPlayersUI = () => {
+    document.querySelector('players');
+    for (var i = 0; i < players.length; i++){
+        let div_player = document.createElement('div');
+
+    }
+}
+
